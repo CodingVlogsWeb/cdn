@@ -1,4 +1,3 @@
-
 const showOnPx = 100;
 const backToTopButton = document.querySelector(".back-to-top");
 const icon_arc = document.getElementById('top_btn_arc');
