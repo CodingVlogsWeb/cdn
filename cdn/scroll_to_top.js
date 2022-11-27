@@ -1,6 +1,6 @@
 const showOnPx = 100;
 const backToTopButton = document.querySelector(".back-to-top");
-const icon_arc = document.getElementById('top_btn_arc');
+const icon_arc = document.querySelector('.back-to-top');
 var link = document.createElement('link');
 
 link.rel = 'stylesheet';
@@ -13,7 +13,7 @@ link.href = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.m
 document.getElementsByTagName('HEAD')[0].appendChild(link);
 
 // Some CSS Form Our Side.
-document.head.insertAdjacentHTML("beforeend", `<style>.icon{color: #fff; font-size: 1.15rem;}.hidden{cursor:default;opacity:0%;z-index:999999999999999;}</style>`)
+document.head.insertAdjacentHTML("beforeend", `<style>.icon{color: #fff; font-size: 1.15rem;}.hidden{cursor:context-menu;opacity:0%;z-index:999999999999999;}</style>`)
 
 // Icon List.
 icon_arc.innerHTML += "<i class='fa-solid fa-arrow-up icon'></i>";
