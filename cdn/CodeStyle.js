@@ -5402,7 +5402,7 @@ csjs.registerLanguage("yaml", (() => {
     }
 
     /**
-     * Recursive method for fix multi-line elements implementation in highlight.js
+     * Recursive method for fix multi-line elements implementation in CodeStyle.js
      * Doing deep passage on child nodes.
      * @param {HTMLElement} element
      */
@@ -5423,7 +5423,7 @@ csjs.registerLanguage("yaml", (() => {
     }
 
     /**
-     * Method for fix multi-line elements implementation in highlight.js
+     * Method for fix multi-line elements implementation in CodeStyle.js
      * @param {HTMLElement} element
      */
     function duplicateMultilineNode(element) {
