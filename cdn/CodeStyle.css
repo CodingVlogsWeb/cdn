@@ -1,0 +1,307 @@
+body.dmCode .csjs {
+    background: #1a1a1a;
+    border-radius: 6px;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+}
+
+@font-face {
+    font-family: 'Material Symbols Outlined';
+    font-style: normal;
+    font-weight: 100 700;
+    src: url(https://fonts.gstatic.com/s/materialsymbolsoutlined/v75/kJEhBvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oFsI.woff2) format('woff2');
+}
+
+.material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+}
+
+pre {
+    position: relative;
+}
+
+body.dmCode pre{
+    border-radius: 4px;
+}
+
+.Darkbtn {
+    position: absolute;
+    top: 4px;
+    right: 2px;
+    color: #000;
+    padding: 5px 12px;
+    border: 0;
+    z-index: 9;
+    background: transparent;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none; 
+            user-select: none;
+}
+
+
+/* pre .Darkbtn {
+    position: absolute;
+    top: 25px;
+    right: 20px;
+    padding: 2px 4px;
+    border: none;
+    border-radius: 50%;
+    z-index: 999999999999999;
+    cursor: pointer;
+    background-color: transparent;
+    color: #000;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none; 
+            user-select: none;
+} */
+
+body.dmCode .Darkbtn {
+    color: #fff;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.csjs {
+    border-radius: 6px;
+}
+
+pre {
+    font-size: 14.5px;
+    border-radius: 20px;
+}
+
+.csjs-ln-n:before {
+    padding-right: 10px;
+    color: #8b8d91;
+}
+
+body.dmCode .csjs-keyword {
+    font-style: italic;
+}
+
+body.dmCode .csjs-attribute,
+body.dmCode .csjs-doctag,
+body.dmCode .csjs-keyword,
+body.dmCode .csjs-meta-keyword,
+body.dmCode .csjs-name,
+body.dmCode .csjs-selector-tag {
+    font-weight: normal;
+}
+
+body.dmCode .csjs {
+    color: #abb2bf;
+    background: #282c34
+}
+
+body.dmCode .csjs-comment,
+body.dmCode .csjs-quote {
+    color: #5c6370;
+    font-style: italic
+}
+
+body.dmCode .csjs-doctag,
+body.dmCode .csjs-formula,
+body.dmCode .csjs-keyword {
+    color: #c678dd
+}
+
+body.dmCode .csjs-deletion,
+body.dmCode .csjs-name,
+body.dmCode .csjs-section,
+body.dmCode .csjs-selector-tag,
+body.dmCode .csjs-subst {
+    color: #e06c75
+}
+
+body.dmCode .csjs-literal {
+    color: #56b6c2
+}
+
+body.dmCode .csjs-addition,
+body.dmCode .csjs-attribute,
+body.dmCode .csjs-meta body.dmCode .csjs-string,
+body.dmCode .csjs-regexp,
+body.dmCode .csjs-string {
+    color: #98c379
+}
+
+body.dmCode .csjs-attr,
+body.dmCode .csjs-number,
+body.dmCode .csjs-selector-attr,
+body.dmCode .csjs-selector-class,
+body.dmCode .csjs-selector-pseudo,
+body.dmCode .csjs-template-variable,
+body.dmCode .csjs-type,
+body.dmCode .csjs-variable {
+    color: #d19a66
+}
+
+body.dmCode .csjs-bullet,
+body.dmCode .csjs-link,
+body.dmCode .csjs-meta,
+body.dmCode .csjs-selector-id,
+body.dmCode .csjs-symbol,
+body.dmCode .csjs-title {
+    color: #61aeee
+}
+
+body.dmCode .csjs-built_in,
+body.dmCode .csjs-class body.dmCode .csjs-title,
+body.dmCode .csjs-titlebody.dmCode .class_ {
+    color: #e6c07b
+}
+
+body.dmCode .csjs-emphasis {
+    font-style: italic
+}
+
+body.dmCode .csjs-strong {
+    font-weight: 700
+}
+
+body.dmCode .csjs-link {
+    text-decoration: underline
+}
+
+pre code.csjs {
+    display: block;
+    overflow-x: auto;
+    padding: 1em
+}
+
+code.csjs {
+    padding: 3px 5px
+}
+
+.csjs {
+    color: #373b41;
+    background: rgb(247, 245, 245)
+}
+
+.csjs ::selection,
+.csjs::selection {
+    background-color: #c5c8c6;
+    color: #373b41
+}
+
+.csjs-comment {
+    color: #b4b7b4
+}
+
+.csjs-tag {
+    color: #969896
+}
+
+.csjs-operator,
+.csjs-punctuation,
+.csjs-subst {
+    color: #373b41
+}
+
+.csjs-operator {
+    opacity: .7
+}
+
+.csjs-bullet,
+.csjs-deletion,
+.csjs-name,
+.csjs-selector-tag,
+.csjs-template-variable,
+.csjs-variable {
+    color: #cc342b
+}
+
+.csjs-attr,
+.csjs-link,
+.csjs-literal,
+.csjs-number,
+.csjs-symbol,
+.csjs-variable.constant_ {
+    color: #f96a38
+}
+
+.csjs-class .csjs-title,
+.csjs-title,
+.csjs-title.class_ {
+    color: #fba922
+}
+
+.csjs-strong {
+    font-weight: 700;
+    color: #fba922
+}
+
+.csjs-addition,
+.csjs-code,
+.csjs-string,
+.csjs-title.class_.inherited__ {
+    color: #198844
+}
+
+.csjs-attribute,
+.csjs-built_in,
+.csjs-doctag,
+.csjs-function .csjs-title,
+.csjs-keyword.csjs-atrule,
+.csjs-quote,
+.csjs-regexp,
+.csjs-section,
+.csjs-title.function_,
+.ruby .csjs-property {
+    color: #3971ed
+}
+
+.csjs-keyword {
+    font-style: italic;
+}
+
+.diff .csjs-meta,
+.csjs-keyword,
+.csjs-template-tag,
+.csjs-type {
+    color: #a36ac7
+}
+
+.csjs-emphasis {
+    color: #a36ac7;
+    font-style: italic
+}
+
+.csjs-meta,
+.csjs-meta .csjs-keyword,
+.csjs-meta .csjs-string {
+    color: #3971ed
+}
+
+.csjs-meta .csjs-keyword,
+.csjs-meta-keyword {
+    font-weight: 700
+}
