@@ -915,7 +915,7 @@ var csjs = function () {
                     g = z(g, e)
             },
             initHighlighting: v,
-            Highlight: () => {
+            HighlightCode: () => {
                 window.addEventListener("DOMContentLoaded", v, !1)
             },
             registerLanguage: (t, s) => {
