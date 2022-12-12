@@ -915,7 +915,7 @@ var csjs = function () {
                     g = z(g, e)
             },
             initHighlighting: v,
-            HighlightCode: () => {
+            initHighlightCode: () => {
                 window.addEventListener("DOMContentLoaded", v, !1)
             },
             registerLanguage: (t, s) => {
@@ -5285,7 +5285,7 @@ csjs.registerLanguage("yaml", (() => {
         BREAK_LINE_REGEXP = /\r\n|\r|\n/g;
 
     if (w.csjs) {
-        w.csjs.LineNumbers = initLineNumbersOnLoad;
+        w.csjs.initLineNumbers = initLineNumbersOnLoad;
         w.csjs.lineNumbersBlock = lineNumbersBlock;
         w.csjs.lineNumbersValue = lineNumbersValue;
 
