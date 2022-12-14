@@ -1,7 +1,5 @@
-/*
-  CodeStyle.js 0.1
-  Copyright (c) Coding Vlogs ‧ All rights reserved.
-*/
+//  CodeStyle.js 0.1
+//  Copyright (c) Coding Vlogs ‧ All rights reserved.
 
 var codeBlocks = document.querySelectorAll("pre");
 codeBlocks.forEach(function(t) {
@@ -915,7 +913,7 @@ var csjs = function () {
                     g = z(g, e)
             },
             initHighlighting: v,
-            initHighlightCode: () => {
+            Highlight: () => {
                 window.addEventListener("DOMContentLoaded", v, !1)
             },
             registerLanguage: (t, s) => {
@@ -5285,7 +5283,7 @@ csjs.registerLanguage("yaml", (() => {
         BREAK_LINE_REGEXP = /\r\n|\r|\n/g;
 
     if (w.csjs) {
-        w.csjs.initLineNumbers = initLineNumbersOnLoad;
+        w.csjs.LineNumbers = initLineNumbersOnLoad;
         w.csjs.lineNumbersBlock = lineNumbersBlock;
         w.csjs.lineNumbersValue = lineNumbersValue;
 
