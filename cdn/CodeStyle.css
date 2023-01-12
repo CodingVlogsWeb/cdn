@@ -11,6 +11,77 @@ body.dmCode .csjs {
         'opsz' 48
 }
 
+/*<![CDATA[*/
+.copy-code-button {
+	border-radius: 0;
+	min-width: 15px;
+	background: none repeat scroll 0 0 transparent;
+	background-color: #000;
+	color: #F1F2F3 !important;
+	cursor: pointer;
+	border-style: none;
+	font-family: 'HELVETICA',sans-serif;
+	font-size: 0.8em;
+	font-weight: normal;
+	text-align: center;
+	text-decoration: none;
+	text-indent: 0;
+	text-transform: uppercase;
+	font-weight: 500;
+	line-height: 1.42rem;
+	margin: 0;
+	padding: 3px 8px;
+	position: absolute !important;
+	top: 0 !important;
+	right: 0 !important;
+
+}
+
+.copy-code-button > span {
+	color: #F1F2F3 !important;
+}
+
+.copy-code-button, ::before, ::after {
+	box-sizing: inherit;
+}
+
+.copy-code-button::before {
+	content: '';
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	margin-right: 3px;
+	background-size: contain;
+	background-image: url("https://codingvlogsweb.w3spaces.com/ContentCopy.svg");
+	background-repeat: no-repeat;
+	position: relative;
+	top: 3px;
+}
+
+.copy-code-button:focus {
+	outline: 0;
+}
+
+/* pre {
+	color: #FFF;
+	background-color: #000;
+	border-radius: 0px !important;
+}
+
+pre[class*="prettyprint"] {
+	-moz-tab-size: 4;
+	-moz-hyphens: none;
+	hyphens: none;
+	position: relative;
+	overflow: hidden;
+} */
+
+ol.linenums {
+	padding: 0;
+	list-style-position: inside;
+	overflow: auto;
+}
+
 @font-face {
     font-family: 'Material Symbols Outlined';
     font-style: normal;
